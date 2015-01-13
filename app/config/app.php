@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Barryvdh\Debugbar\ServiceProvider',
 		'Cartalyst\Sentry\SentryServiceProvider',
+		'Aloha\Twilio\TwilioServiceProvider',
 
 	),
 
@@ -192,6 +193,7 @@ return array(
 		'View'              => 'Illuminate\Support\Facades\View',
 		'Debugbar' 			=> 'Barryvdh\Debugbar\Facade',
 		'Sentry' 			=> 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+		'Twilio' 			=> 'Aloha\Twilio\Facades\Twilio',
 
 	),
 

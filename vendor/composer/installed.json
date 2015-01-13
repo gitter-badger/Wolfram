@@ -1955,5 +1955,104 @@
             "laravel",
             "security"
         ]
+    },
+    {
+        "name": "twilio/sdk",
+        "version": "3.12.8",
+        "version_normalized": "3.12.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twilio/twilio-php.git",
+            "reference": "9d8bb7dad58dc52fc4cbc1f0e905950ad839ca73"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twilio/twilio-php/zipball/9d8bb7dad58dc52fc4cbc1f0e905950ad839ca73",
+            "reference": "9d8bb7dad58dc52fc4cbc1f0e905950ad839ca73",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.1"
+        },
+        "require-dev": {
+            "mockery/mockery": ">=0.7.2",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-12-04 19:17:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Services_Twilio": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Burke",
+                "email": "kevin@twilio.com"
+            },
+            {
+                "name": "Kyle Conroy",
+                "email": "kyle+pear@twilio.com"
+            }
+        ],
+        "description": "A PHP wrapper for Twilio's API",
+        "homepage": "http://github.com/twilio/twilio-php",
+        "keywords": [
+            "api",
+            "sms",
+            "twilio"
+        ]
+    },
+    {
+        "name": "aloha/twilio",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aloha/laravel4-twilio.git",
+            "reference": "47e69c0fba9e2e65edf48c6d4125e544cd0140d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aloha/laravel4-twilio/zipball/47e69c0fba9e2e65edf48c6d4125e544cd0140d7",
+            "reference": "47e69c0fba9e2e65edf48c6d4125e544cd0140d7",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "4.*",
+            "php": ">=5.3.0",
+            "twilio/sdk": "3.12.*"
+        },
+        "time": "2014-09-04 00:36:10",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Aloha\\Twilio": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Travis J Ryan",
+                "email": "travisjryan@gmail.com"
+            }
+        ],
+        "description": "Twilio API for Laravel 4",
+        "homepage": "https://github.com/aloha/laravel4-twilio",
+        "keywords": [
+            "ivr",
+            "laravel4",
+            "sms",
+            "twilio"
+        ]
     }
 ]
